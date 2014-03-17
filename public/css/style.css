@@ -23,7 +23,9 @@
 }
 
 .imagen {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .jumbotron{
@@ -31,4 +33,73 @@
   padding-top: 10px !important;
   padding-bottom: 20px !important;
   color: white !important;
+}
+
+.lever {
+  margin-top: 15px;
+}
+
+.btn{
+  font-size: 1.9em !important;
+}
+
+#twtrButton{
+  margin-top: 10px;
+  padding-left: 46%;
+}
+
+
+@media (max-width: 1199px) {
+  .slots {
+    width: 123%;
+    font-size: 1.3em;
+  }
+
+  #twtrButton {
+    padding-left: 44%;
+  }
+  .btn{
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 991px ) {
+  .slots {
+    width: 133%;
+    padding-top: 20px;
+    font-size: 1.1em;
+    height:57px;
+  }
+
+  .jumbotron h1{
+    font-size: 55px !important;
+  }
+
+  #twtrButton {
+    padding-left: 48%;
+  }
+
+  .btn{
+    font-size: 1.5em !important;
+  }
+}
+
+@media(max-width: 767px) {
+  .slots{
+    width: 100%;
+    font-size: 1.5em;
+  }
+  #twtrButton {
+    padding-left: 40%;
+  }
+}
+
+@media(max-width: 400px){
+  .jumbotron h1{
+    font-size: 40px !important;
+  }
+
+  #twtrButton {
+    padding-left: 33%;
+  }
 }
