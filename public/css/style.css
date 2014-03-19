@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Inika);
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
 body {
   background-image: url(../img/ch.png) !important;
-  font-family: 'Rockwell', sans-serif !important;
+  font-family: 'Inika', sans-serif !important;
 }
 
 p {
@@ -15,7 +18,7 @@ p {
 
 .slots {
   padding-top: 10px;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-size: 3em;
   overflow:hidden;
