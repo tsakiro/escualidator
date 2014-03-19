@@ -17,24 +17,26 @@ p {
 }
 
 .slots {
-  padding-top: 10px;
+  margin-top: 6%;
+  padding-top: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2em;
   overflow:hidden;
   height: 80px;
-  /* width: 119%; */
-  /* border:1px solid black; */
+  width: 20%;
+  /* border-radius: 40px; */
+  border: 2px solid rgba(255,255,255,0.3);
+  border-left: none;
   color: white;
   text-shadow: 1px 1px 10px #000;
+  display: inline-block;
+  float: left;
 }
 
-/*#frase:before {
-  content: '“';
-  font-family: 'Times New Roman', serif;
-  font-size: 5em;
-  color: white;
-}*/
+#slots_a {
+  border-left: 2px solid rgba(255,255,255,0.3);
+}
 
 .slots .wrapper{
   margin-top:-6px;
@@ -57,7 +59,7 @@ p {
   padding-bottom: 20px !important;
   color: white !important;
   border-bottom: 1px solid #d43f3a;
-  box-shadow: 1px 1px 10px #666;
+  box-shadow: 1px 1px 10px #333;
 }
 
 .jumbotron h1 {
@@ -78,12 +80,29 @@ p {
   padding-left: 46%;
 }
 
+#texto {
+  background-color: rgba(255,255,255, 0.9) !important;
+  color: #d9534f !important;
+  border: none;
+  margin: 100px 0 0 0;
+  width: 100%;
+  bottom: 0;
+}
 
-@media (max-width: 1199px) {
+#texto p {
+  padding: 50px 0;
+}
+
+@media (max-width: 1299px) {
   .slots {
-    /* width: 123%; */
-    font-size: 2.5em;
+    font-size: 1.6em;
+  
+    padding-top: 28px;
+}
+  .jumbotron h1{
+    font-size: 3em !important;
   }
+
 
   #twtrButton {
     padding-left: 44%;
@@ -95,17 +114,11 @@ p {
 
 @media (max-width: 991px ) {
   .slots {
-    /* width: 133%; */
-    /* padding-top: 20px; */
-    font-size: 2em;
-    height: 55px;
-    /* height:57px; */
-  
-    margin-left: 60px;
+    font-size: 1.3em;
 }
 
   .jumbotron h1{
-    font-size: 45px !important;
+    font-size: 2.8em !important;
   }
 
   #twtrButton {
@@ -117,30 +130,30 @@ p {
   }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 793px) {
   .slots{
-    /* width: 100%; */
-    height: 30px;
-    font-size: 1em;
-  
-    margin-left: 0px;
+    border: none;
+    font-size: 1.5em;
+    width: 100%;
+    display: block;
+    height: 50px;
+    margin: 0;
+    text-shadow: 1px 1px 5px #333;
 }
   #twtrButton {
     padding-left: 40%;
   }
   .jumbotron h1{
-    font-size: 17px !important;
+    font-size: 2em !important;
   
 }
 
-sm-offset-4 {
-margin-left: 30% !important;
-}
+
 }
 
 @media(max-width: 400px){
   .jumbotron h1{
-    font-size: 15px !important;
+    font-size: 1.5em !important;
   }
 
   #twtrButton {
