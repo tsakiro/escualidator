@@ -31,7 +31,7 @@ function go(){
         .attr('href', 'http://twitter.com/share')
         .attr('data-url', location)
         .attr('data-text', mensaje)
-        .attr("data-hashtags","DiloComoMaduro")
+        .attr("data-hashtags","DiloComoMaduro,Tropa")
         .attr("data-lang","es")
         .attr("data-size","large");
     $('#twtrButton').append(tweetBtn);
@@ -53,7 +53,7 @@ function tweet_text(){
                   + $("#slots_b .wrapper .slot p").get(contador * 7).innerHTML + " " 
                   + $("#slots_c .wrapper .slot p").get(contador * 7).innerHTML + " "
                   + $("#slots_d .wrapper .slot p").get(contador * 7).innerHTML + " "
-                  + $("#slots_e .wrapper .slot p").get(contador * 7).innerHTML+ ".";
+                  + $("#slots_e .wrapper .slot p").get(contador * 7).innerHTML + ".";
   }
   return message_text;
 }

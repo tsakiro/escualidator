@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Inika);
-@import url(http://fonts.googleapis.com/css?family=Lato:100,400,800);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 body {
   background-image: url(../img/ch.png) !important;
@@ -172,7 +172,11 @@ p {
   }
 
 }
-
+@media(min-width: 1299px){
+  .slots{
+    font-weight: 300;
+  }
+}
 @media(max-width: 400px){
 
   .slots{
