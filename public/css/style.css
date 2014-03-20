@@ -10,6 +10,11 @@ p {
   margin: 0 !important;
 }
 
+.imageBtn {
+  padding-top: 30px;
+
+}
+
 .machine {
   width: 100%;
   margin-top: 50px;
@@ -20,7 +25,7 @@ p {
   margin-top: 6%;
   padding-top: 20px;
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 2em;
   overflow:hidden;
   height: 80px;
@@ -76,7 +81,7 @@ p {
 }
 
 #twtrButton{
-  margin-top: 10px;
+  margin-top: 20px;
   padding-left: 46%;
 }
 
@@ -105,7 +110,7 @@ p {
 
 
   #twtrButton {
-    padding-left: 44%;
+    padding-left: 45%;
   }
   .btn{
     font-size: 1.5em !important;
