@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Inika);
-@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,800);
 
 body {
   background-image: url(../img/ch.png) !important;
@@ -128,18 +128,27 @@ p {
   .btn{
     font-size: 1.5em !important;
   }
+  
 }
 
 @media(max-width: 793px) {
   .slots{
-    border: none;
     font-size: 1.5em;
-    width: 100%;
+    font-weight: 400;
+    min-width: 100%;
     display: block;
-    height: 50px;
-    margin: 0;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-bottom: none;
+    height: 55px;
+    padding: 15px;
+    margin: 0 auto;
     text-shadow: 1px 1px 5px #333;
 }
+
+  #slots_e {
+    border-bottom: 2px solid rgba(255,255,255,0.3) !important;
+  }
+
   #twtrButton {
     padding-left: 40%;
   }
@@ -148,12 +157,34 @@ p {
   
 }
 
+  .jumbotron {
+    padding: 0;
+    margin: 0;
+  }
+
+  #frase {
+    margin: 0 auto;
+  }
 
 }
 
 @media(max-width: 400px){
+
+  .slots{
+    font-size: 1.2em;
+    font-weight: 400;
+    min-width: 100%;
+    display: block;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-bottom: none;
+    height: 40px;
+    padding: 10px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 5px #333;
+}
   .jumbotron h1{
     font-size: 1.5em !important;
+    margin: 0;
   }
 
   #twtrButton {
