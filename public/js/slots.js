@@ -31,7 +31,7 @@ function go(){
         .attr('href', 'http://twitter.com/share')
         .attr('data-url', location)
         .attr('data-text', mensaje)
-        .attr("data-hashtags","DiloComoMaduro,Tropa")
+        .attr("data-hashtags","LaSalida,Caprilieber")
         .attr("data-lang","es")
         .attr("data-size","large");
     $('#twtrButton').append(tweetBtn);
