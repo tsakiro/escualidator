@@ -1,11 +1,11 @@
 
 //note parseInt
 //note stop
-var primera = ["La escasez", "La inflación", "La inseguridad", "El contrabando", "La crisis económica", "El crimen", "La represión"];
-var segunda = ["es un invento", "es una estrategia","es un montaje","es una maniobra","es una táctica","es una operación"];
-var tercera = ["de los burgueses","del imperio","de los fascistas","de la oposición","de Obama y Uribe","de los capitalistas"];
-var cuarta = ["para amedrentar", "para oprimir", "para destruir", "para desmoralizar", "para controlar", "para atacar"];
-var quinta = ["al pueblo","la revolución","a los pobres","al chavismo","a la patria","al gobierno"];
+var primera = ["La escasez", "La inflación", "La inseguridad", "El adoctrinamiento"];
+var segunda = ["es una maniobra", "es una estrategia","es una táctica","es una operación"];
+var tercera = ["del castrocomunismo","del ilegítimo","de los echufados","de los chavistas"];
+var cuarta = ["para robar", "para destruir", "para controlar", "para atacar"];
+var quinta = ["PDVSA","a la clase media","a la empresa privada","al país"];
 var count = 0;
 
 
