@@ -1,0 +1,7 @@
+# Logfile created on 2014-03-21 12:41:59 -0430 by logger.rb/44203
+I, [2014-03-21T12:41:59.214678 #91071]  INFO -- : 0:  newrelic_rpm (3.7.3.204) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/newrelic_rpm-3.7.3.204.gemspec
+I, [2014-03-21T12:41:59.215040 #91071]  INFO -- : 0:  rack (1.5.2) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-03-21T12:42:00.666391 #91071]  INFO -- : 0:  rack-protection (1.5.2) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-03-21T12:42:01.833689 #91071]  INFO -- : 0:  tilt (1.4.1) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-03-21T12:42:05.302061 #91071]  INFO -- : 0:  sinatra (1.4.4) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-03-21T12:42:05.302821 #91071]  INFO -- : 0:  bundler (1.5.1) from /Users/Eleni/.rvm/gems/ruby-2.1.0/specifications/bundler-1.5.1.gemspec

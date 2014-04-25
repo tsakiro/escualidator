@@ -1,11 +1,11 @@
 
 //note parseInt
 //note stop
-var primera = ["Mercal", "Cédula Buen Vivir", "CADIVI", "SICAD"];
+var primera = ["Mercal", "Cédula Buen Vivir", "CADIVI", "SICAD", "La comuna"];
 var segunda = ["es una maniobra", "es una estrategia","es una artimaña","es una jugada"];
 var tercera = ["del castrocomunismo","del ilegítimo","de los echufados","de los chavistas"];
 var cuarta = ["para hundir", "para destruir", "para derrumbar", "para devastar"];
-var quinta = ["PDVSA","a la clase media","a la empresa privada","al país"];
+var quinta = ["PDVSA","a la clase media","a la empresa privada","al país", "la libertad de expresión"];
 var count = 0;
 
 
